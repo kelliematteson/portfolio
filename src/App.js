@@ -47,7 +47,7 @@ class App extends React.Component {
             <Nav className="ml-auto">
               <Link className="nav-link" to="/">Home</Link>
               <Link className="nav-link" to="/about">About</Link>
-              <Link className="nav-link" to="/contact">Contact</Link>
+              <Link className="nav-link" to="/">Contact</Link>
 
             </Nav>
           </NavBar.Collapse>
