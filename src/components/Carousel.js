@@ -3,7 +3,8 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Bport from '../assets/images/Bport.jpg';
-import KMport from '../assets/images/KMport.jpg';
+import theGive from '../assets/images/theGive.jpg';
+import tweeter from '../assets/images/tweeter.jpg';
 import Rport from '../assets/images/Rport.jpg';
 import Card from '../components/Card';
 
@@ -15,23 +16,34 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'Baby Project',
+                    title: 'Surviving Baby',
                     subTitle: 'JavaScript Game',
                     imgSrc: Bport,
+                    link: 'https://kelliematteson.github.io/project1',
                     selected: false
                 },
                 {
                     id: 1,
-                    title: 'Kellie Matteson',
-                    subTitle: 'FullStack Engineer',
-                    imgSrc: KMport,
+                    title: 'The Give',
+                    subTitle: 'Ruby on Rails & React',
+                    imgSrc: theGive,
+                    link: 'https://thegiveapp.herokuapp.com/',
                     selected: false
                 },
                 {
                     id: 2,
-                    title: 'Tweeter',
-                    subTitle: 'Ruby on Rails',
+                    title: `What's for Dinner?`,
+                    subTitle: 'Full Stack MERN',
                     imgSrc: Rport,
+                    link: 'https://myrecipe-app21.herokuapp.com',
+                    selected: false
+                },
+                {
+                    id: 3,
+                    title: `Tweeter`,
+                    subTitle: 'Group Ruby/React',
+                    imgSrc: tweeter,
+                    link: 'https://tweeter-ui-goat.herokuapp.com/',
                     selected: false
                 }
             ]

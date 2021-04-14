@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import kmLogo from './assets/images/kmLogo.jpg';
 
 class App extends React.Component {
   
@@ -22,9 +23,9 @@ class App extends React.Component {
         { title: 'Contact', path: '/contact' },
       ],
       home:  {
-        title: 'Always Learning',
-        subTitle: 'An Actor who Codes',
-        text: 'Take a look at my projects below'
+        title: `All the Internet's a Stage`,
+        subTitle: `And I'm an Actor who Codes`,
+        text: 'Check out my portfolio projects below'
       },
       about:  {
         title: 'About Me'
@@ -41,13 +42,16 @@ class App extends React.Component {
       <Container className="p-0" fluid={true}>
         
         <NavBar className="border-bottom" bg="transparent" expand="lg">
-          <NavBar.Brand>Kellie Matteson</NavBar.Brand>
+          <NavBar.Brand>
+          <img className="kmLogo" src={kmLogo} style={{width:100, marginTop: -7, paddingRight:8}} />
+            <a href="/">Kellie Matteson</a>
+          </NavBar.Brand>
           <NavBar.Toggle className="border-0" aria-controls="navbar-toggle" />
           <NavBar.Collapse id="navbar-toggle">
             <Nav className="ml-auto">
               <Link className="nav-link" to="/">Home</Link>
               <Link className="nav-link" to="/about">About</Link>
-              <Link className="nav-link" to="/">Contact</Link>
+              <Link className="nav-link" to="/contact">Contact</Link>
 
             </Nav>
           </NavBar.Collapse>
