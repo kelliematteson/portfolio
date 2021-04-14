@@ -31,7 +31,8 @@ class App extends React.Component {
         title: 'About Me'
       },
       contact:  {
-        title: `Let's chat!`
+        title: `Let's chat!`,
+        subTitle: 'interested in collaboration?'
       }
     }
   }
@@ -43,8 +44,8 @@ class App extends React.Component {
         
         <NavBar className="border-bottom" bg="transparent" expand="lg">
           <NavBar.Brand>
-          <img className="kmLogo" src={kmLogo} style={{width:100, marginTop: -7, paddingRight:8}} />
-            <a href="/">Kellie Matteson</a>
+            <img className="kmLogo" src={kmLogo} style={{width:100, marginTop: -7, paddingRight:8}} />
+                    <a href="/">Kellie Matteson</a>    
           </NavBar.Brand>
           <NavBar.Toggle className="border-0" aria-controls="navbar-toggle" />
           <NavBar.Collapse id="navbar-toggle">
@@ -59,7 +60,7 @@ class App extends React.Component {
 
         <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
         <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
-        <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
+        <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} subTitle={this.state.contact.subTitle}/>} />
         
         
         <Footer />

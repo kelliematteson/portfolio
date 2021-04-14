@@ -10,7 +10,7 @@ function Footer() {
             <Container fluid={true}>
                 <Row className="border-top justify-content-between p-3">
                     <Col className="p-0 d-flex justify-content-end" md={3} sm={12}>
-                        Kellie Matteson
+                        <a href="https://github.com/kelliematteson">Follow Me on GitHub</a>
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
                         This site was made by Kellie Matteson

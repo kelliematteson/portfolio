@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap');
 
+$a-tags: 'a, a:active, a:hover, a:visited';
+$a-tags-hover: 'a:active, a:hover';
+ 
+#{$a-tags} {
+  color: midnightblue;
+  text-decoration: none;
+}
+#{$a-tags-hover} {
+  color: green;
+  
+}
+h1 {
+  font-family: 'Zilla Slab Highlight';
+}
 .App {
   text-align: center;
   font-family: 'Dosis';
@@ -41,6 +56,7 @@
   border-radius: 50%;
   padding: 10;
 }
+
 
 
 
