@@ -93,7 +93,7 @@ class ContactPage extends React.Component {
                     <p>Email me at <strong>mattesonkellie@gmail.com</strong></p>
                     <p>Find me on <a href="https://www.linkedin.com/in/kelliematteson/">LinkedIn</a></p>
                     <p>Follow me on <a href="https://github.com/kelliematteson">GitHub</a></p>
-                    <a href="../assets/images/kelliematteson_fullstackdevResume-1.pdf" download="kelliemattesonResume"> test </a>
+                    {/* <a href="../assets/documents/kelliematteson_fullstackdevResume-1.pdf"download>maybe?</a> */}
                     
                 </Content>
             </div>
