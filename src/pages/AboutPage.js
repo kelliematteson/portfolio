@@ -4,6 +4,8 @@ import Hero from '../components/Hero';
 import Content from '../components/Content';
 
 
+
+
 function AboutPage(props) {
 
 
@@ -25,8 +27,8 @@ function AboutPage(props) {
              <p>jQuery, React, Node.js, Express</p>
              <strong><p>Tools & Platforms</p></strong>
              <p>Git, Gulp, Webpack, Heroku, Wordpress, PostrgreSQL, MongoDB, Mongoose, Postman, Bootstrap</p>
-             <h4>Resume</h4>
-             <img src="../assets/images/kelliematteson_fullstackdevResume.jpg" alt="resume"/>
+             <h4>resume</h4>
+             <img src="/images/kelliematteson_fullstackdevResume.jpg" />
             </Content>
 
         </div>
