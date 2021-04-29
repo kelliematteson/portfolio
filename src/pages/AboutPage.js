@@ -5,6 +5,7 @@ import Content from '../components/Content';
 
 
 
+
 function AboutPage(props) {
 
 
@@ -27,7 +28,6 @@ function AboutPage(props) {
              <strong><p>Tools & Platforms</p></strong>
              <p>Git, Gulp, Webpack, Heroku, Wordpress, PostrgreSQL, MongoDB, Mongoose, Postman, Bootstrap</p>
              <h4>Resume</h4>
-             <img src="/public/images/kelliematteson_fullstackdevResume.jpg" />
             </Content>
 
         </div>
