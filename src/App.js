@@ -18,7 +18,7 @@ class App extends React.Component {
     this.state = {
       title: 'Kellie Matteson',
       headerLinks: [
-        { title: 'Home', path: '/' },
+        { title: 'Portfolio', path: '/' },
         { title: 'About', path: '/about' },
         { title: 'Contact', path: '/contact' },
       ],
@@ -50,7 +50,7 @@ class App extends React.Component {
           <NavBar.Toggle className="border-0" aria-controls="navbar-toggle" />
           <NavBar.Collapse id="navbar-toggle">
             <Nav className="ml-auto">
-              <Link className="nav-link" to="/">Home</Link>
+              <Link className="nav-link" to="/">Portfolio</Link>
               <Link className="nav-link" to="/about">About</Link>
               <Link className="nav-link" to="/contact">Contact</Link>
 
