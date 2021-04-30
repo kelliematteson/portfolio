@@ -27,8 +27,8 @@ function AboutPage(props) {
              <p>jQuery, React, Node.js, Express</p>
              <strong><p>Tools & Platforms</p></strong>
              <p>Git, Gulp, Webpack, Heroku, Wordpress, PostrgreSQL, MongoDB, Mongoose, Postman, Bootstrap</p>
-             <h4>resume</h4>
-             <img src="/images/kelliematteson_fullstackdevResume.jpg" />
+             <p>Take a look at my<a href="https://docs.google.com/document/d/e/2PACX-1vTc3nPUynC535J8tkDYz281XN3mlVz6gLpb7YoESWyaAw81_THvt4BQDOvowDboT2P0FmTBQEZ4igM6/pub">Resume</a></p>
+             
             </Content>
 
         </div>
