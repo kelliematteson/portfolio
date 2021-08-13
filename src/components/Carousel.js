@@ -16,6 +16,14 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
+                    title: 'Leena Rao Portfolio',
+                    subTitle: 'Writer Portfolio',
+                    imgSrc: Bport,
+                    link: 'https://leenarao.com',
+                    selected: false
+                },
+                {
+                    id: 1,
                     title: 'Surviving Baby',
                     subTitle: 'JavaScript Game',
                     imgSrc: Bport,
@@ -23,7 +31,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 1,
+                    id: 2,
                     title: 'The Give',
                     subTitle: 'Ruby on Rails & React',
                     imgSrc: theGive,
@@ -31,7 +39,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 2,
+                    id: 3,
                     title: `What's for Dinner?`,
                     subTitle: 'Full Stack MERN',
                     imgSrc: Rport,
@@ -39,7 +47,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 3,
+                    id: 4,
                     title: `Tweeter`,
                     subTitle: 'Group Ruby/React',
                     imgSrc: tweeter,
