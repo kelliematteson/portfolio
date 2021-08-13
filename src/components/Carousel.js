@@ -7,6 +7,7 @@ import theGive from '../assets/images/theGive.jpg';
 import tweeter from '../assets/images/tweeter.jpg';
 import Rport from '../assets/images/Rport.jpg';
 import Card from '../components/Card';
+import Leena from '../assets/images/Leena.jpg';
 
 class Carousel extends React.Component {
 
@@ -18,7 +19,7 @@ class Carousel extends React.Component {
                     id: 0,
                     title: 'Leena Rao Portfolio',
                     subTitle: 'Writer Portfolio',
-                    imgSrc: Bport,
+                    imgSrc: Leena,
                     link: 'https://leenarao.com',
                     selected: false
                 },
