@@ -24,9 +24,9 @@ function AboutPage(props) {
              <strong><p>Programming Languages</p></strong>
              <p>Javascript, HTML5, CSS/Sass</p>
              <strong><p>Libraries & Frameworks</p></strong>
-             <p>jQuery, React, Node.js, Express</p>
+             <p>jQuery, React, Node.js, Express, Gatsby</p>
              <strong><p>Tools & Platforms</p></strong>
-             <p>Git, Gulp, Webpack, Heroku, Wordpress, PostrgreSQL, MongoDB, Mongoose, Postman, Bootstrap</p>
+             <p>Git, Gulp, Sanity, Netlify, Webpack, Heroku, Wordpress, PostrgreSQL, MongoDB, Mongoose, Postman, Bootstrap</p>
              <p>Take a look at my<a href="https://docs.google.com/document/d/e/2PACX-1vTc3nPUynC535J8tkDYz281XN3mlVz6gLpb7YoESWyaAw81_THvt4BQDOvowDboT2P0FmTBQEZ4igM6/pub">Resume</a></p>
              
             </Content>

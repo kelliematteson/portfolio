@@ -18,25 +18,25 @@ class Carousel extends React.Component {
                 {
                     id: 0,
                     title: 'Leena Rao Portfolio',
-                    subTitle: 'React/Gatsby/Sanity',
+                    subTitle: 'React/Gatsby/Sanity/Netlify',
                     imgSrc: Leena,
                     link: 'https://leenarao.com',
                     selected: false
                 },
                 {
                     id: 1,
-                    title: 'Surviving Baby',
-                    subTitle: 'JavaScript Game',
-                    imgSrc: Bport,
-                    link: 'https://kelliematteson.github.io/project1',
-                    selected: false
-                },
-                {
-                    id: 2,
                     title: 'The Give',
                     subTitle: 'Ruby on Rails & React',
                     imgSrc: theGive,
                     link: 'https://thegiveapp.herokuapp.com/',
+                    selected: false
+                },
+                {
+                    id: 2,
+                    title: `Tweeter`,
+                    subTitle: 'Group Ruby/React',
+                    imgSrc: tweeter,
+                    link: 'https://tweeter-ui-goat.herokuapp.com/',
                     selected: false
                 },
                 {
@@ -49,12 +49,12 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 4,
-                    title: `Tweeter`,
-                    subTitle: 'Group Ruby/React',
-                    imgSrc: tweeter,
-                    link: 'https://tweeter-ui-goat.herokuapp.com/',
+                    title: 'Surviving Baby',
+                    subTitle: 'JavaScript Game',
+                    imgSrc: Bport,
+                    link: 'https://kelliematteson.github.io/project1',
                     selected: false
-                }
+                },
             ]
 
         }
