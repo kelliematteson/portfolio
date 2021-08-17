@@ -18,7 +18,7 @@ class Carousel extends React.Component {
                 {
                     id: 0,
                     title: 'Leena Rao Portfolio',
-                    subTitle: 'Writer Portfolio',
+                    subTitle: 'React/Gatsby/Sanity',
                     imgSrc: Leena,
                     link: 'https://leenarao.com',
                     selected: false
