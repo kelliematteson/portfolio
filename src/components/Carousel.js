@@ -23,15 +23,15 @@ class Carousel extends React.Component {
                     link: 'https://leenarao.com',
                     selected: false
                 },
-                {
+                 {
                     id: 1,
-                    title: 'The Give',
-                    subTitle: 'Ruby on Rails & React',
-                    imgSrc: theGive,
-                    link: 'https://thegiveapp.herokuapp.com/',
+                    title: `What's for Dinner?`,
+                    subTitle: 'Full Stack MERN',
+                    imgSrc: Rport,
+                    link: 'https://myrecipe-app21.herokuapp.com',
                     selected: false
                 },
-                {
+                 {
                     id: 2,
                     title: `Tweeter`,
                     subTitle: 'Group Ruby/React',
@@ -41,20 +41,13 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 3,
-                    title: `What's for Dinner?`,
-                    subTitle: 'Full Stack MERN',
-                    imgSrc: Rport,
-                    link: 'https://myrecipe-app21.herokuapp.com',
+                    title: 'The Give',
+                    subTitle: 'Ruby on Rails & React',
+                    imgSrc: theGive,
+                    link: 'https://thegiveapp.herokuapp.com/',
                     selected: false
                 },
-                {
-                    id: 4,
-                    title: 'Surviving Baby',
-                    subTitle: 'JavaScript Game',
-                    imgSrc: Bport,
-                    link: 'https://kelliematteson.github.io/project1',
-                    selected: false
-                },
+               
             ]
 
         }
