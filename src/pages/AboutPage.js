@@ -16,7 +16,7 @@ function AboutPage(props) {
 
             <Content>
              <p>
-             <strong>I’m an actor who codes.</strong> An easy fit for me because both require breaking into the unknown. When crafting a character, I sift through the script and use trusted technique to pull it together. As a developer, I turn to my favorite tools, javascript, React and Ruby, to tease out creative functionality and elegant solutions. 
+             <strong>I’m a Problem Solver.</strong> And I will not give up. This leaves me bleary eyed in front of my screen a little too often. Thankfully, I know when to pull away, go for a run and come back refreshed and eager to try a different approach. I love to build a full stack application. I love the challenge of a new framework and the excitement of seeing the magic it comes with. I also obsess over the little details of the front end, getting that heading in just the right spot or playing around with a little spring animation. My two little ones push me to keep learning<strong> and</strong> to stop everything and play hide and seek.
              </p>
              <h4>
             Skills: 
